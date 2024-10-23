@@ -1,26 +1,27 @@
-# 📱 Inventory Application - Sistem manajemen bahan baku digital dan produksi PT. Garasi Creasindo
+# 🖥️ Goods Inventory Application - PT. Garasi Creasindo
 
 ![Project Status](https://img.shields.io/badge/status-active-success.svg)
 
-## 📖 Tentang Project
-Aplikasi ini adalah sistem manajemen inventory yang memungkinkan tracking bahan baku digital dan produksi secara real-time. Project ini dibuat untuk memudahkan PT. Garasi Creasindo dalam mengelola stok bahan baku digital dan produksi mereka secara efisien. Target pengguna dari aplikasi ini adalah staff inventory, production manager, dan admin PT. Garasi Creasindo.
+## 📖 About the Project
+This desktop application is an inventory management system that allows real-time tracking of digital raw materials and production. This project was created to make it easier for PT. Garasi Creasindo to manage their digital raw material stock and production efficiently. The target users of this application are inventory staff, production manager, and admin of PT. Garasi Creasindo who work in a desktop environment.
 
-## ⭐ Fitur Utama
-- ✨ Dashboard dengan overview total stok bahan baku digital dan produksi
-- 🚀 Manajemen stok masuk dan keluar untuk bahan baku digital
-- 💡 Manajemen stok masuk dan keluar untuk bahan baku produksi
-- 📊 Laporan detail stok dengan filter mutasi
-- 🖨️ Fitur cetak laporan
-- 🌓 Mode tema gelap/terang
-- 🔐 Sistem autentikasi pengguna
+## ⭐ Key Features
+- ✨ Dashboard with overview of total stock of digital raw materials and production
+- 🚀 Inbound and outbound stock management for digital raw materials
+- 💡 Incoming and outgoing stock management for production raw materials
+- 📊 Detailed stock report with mutation filters
+- 🖨️ Report print feature
+- 🌓 Dark/light theme mode
+- 🔐 User authentication system
 
-## 🛠️ Dibuat Dengan
-- [React.js](https://reactjs.org/) - Frontend Framework
-- [Node.js](https://nodejs.org/) - Backend
+## 🛠️ Made With
+- [Java](https://www.java.com/) - Programming Language
+- [JavaFX](https://openjfx.io/) - GUI Framework
+- [Scene Builder](https://gluonhq.com/products/scene-builder/) - Visual Layout Tool
 - [MySQL](https://www.mysql.com/) - Database
-- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [JasperReports](https://community.jaspersoft.com/) - Reporting Library
 
-## 🏁 Cara Menggunakan
+## 🏁 How to use
 
 ```bash
 # Clone repository ini
@@ -29,62 +30,83 @@ git clone https://github.com/garasi-creasindo/inventory-system
 # Masuk ke direktori project
 cd inventory-system
 
-# Install dependencies
-npm install
+# Compile project
+javac -cp "lib/*" src/*.java
 
 # Jalankan aplikasi
-npm start
+java -jar InventorySystem.jar
 ```
 
 ## 📷 Screenshot
 
+### Loading Screen
+
+![Loading](https://github.com/user-attachments/assets/0a8ca949-a2ef-40f7-878d-5a8ca28abdbc)
+
+### Login Screen
+
+![Login](https://github.com/user-attachments/assets/4de6ac85-b2dc-41be-bb4a-5564d27b9217)
+*Dark mode login page view*
+
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
-*Tampilan Dashboard dengan overview stok*
+
+![Utama](https://github.com/user-attachments/assets/38a2a02e-0d78-47e0-9fa0-df498d5d49c5)
+*Dashboard view with stock overview*
 
 ### Form Input
-![Form Input](screenshots/form-input.png)
-*Form input stok bahan baku*
+
+**1. Form Input Bahan Baku Digital - Masuk** 
+
+![Form BBD Masuk](https://github.com/user-attachments/assets/5b79af08-1170-4698-92eb-d4a363695990)
+
+![Form BBD Keluar](https://github.com/user-attachments/assets/8810bed0-0322-401f-9d04-64bb8b30fb90)
+
+![Form BBP Masuk](https://github.com/user-attachments/assets/5f0386a4-e1cf-4f22-8804-06b92f3a4b3f)
+
+![Form BBP Keluar](https://github.com/user-attachments/assets/fa5b14eb-f842-43b0-b33b-d911c79cca0f)
+
+*Raw material stock input form*
 
 ### Laporan
 ![Laporan](screenshots/laporan.png)
-*Tampilan laporan stok bahan baku*
+*Raw material stock report view*
 
-## Fitur Detail
+## Detailed Features
 
 ### Dashboard
-- Total Bahan Baku Digital: Menampilkan jumlah total item digital
-- Total Bahan Baku Produksi: Menampilkan jumlah total item produksi
-- Total Bahan Baku Masuk: Tracking item yang masuk
-- Total Bahan Baku Keluar: Tracking item yang keluar
+- Digital Raw Material Total: Displays the total number of digital items
+- Total Production Raw Materials: Displays the total number of production items
+- Total Incoming Raw Materials: Tracking incoming items
+- Total Outgoing Raw Materials: Tracking outgoing items
 
-### Manajemen Stok
-- Input stok masuk dengan detail:
-  - Nomor
-  - Tanggal
-  - Jenis Kertas
-  - Ukuran
-  - Mutasi (Masuk/Keluar)
-  - Jumlah
-- Filter view berdasarkan:
-  - Semua Mutasi
-  - Mutasi Masuk
-  - Mutasi Keluar
+### Stock Management
+- Incoming stock input with details:
+- Number
+- Date
+- Paper Type
+- Size
+- Mutation (In/Out)
+- Amount
+- Filter view by:
+- All Mutations
+- Incoming Mutations
+- Outgoing Mutations
 
-### Laporan
-- Laporan detail dengan informasi:
-  - Nomor
-  - Tanggal
-  - Jenis Kertas
-  - Ukuran
-  - Status Mutasi
-  - Jumlah
-- Fitur cetak laporan
+### Report
+- Detailed report with information:
+- Number
+- Date
+- Paper Type
+- Size
+- Mutation Status
+- Quantity
+- Export reports to PDF using JasperReports
+- Direct print to printer feature
 
-## 👤 Dibuat Oleh
+## 👤 Made By
 **PT. Garasi Creasindo**
 - Website: [www.garasicreasindo.com](https://www.garasicreasindo.com)
 - Email: contact@garasicreasindo.com
 
-## 📝 Lisensi
-Project ini menggunakan lisensi [MIT](LICENSE)
+## 📝 License
+This project uses [MIT](LICENSE) license
