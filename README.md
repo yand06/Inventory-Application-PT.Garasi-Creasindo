@@ -14,7 +14,7 @@ This desktop application is an inventory management system that allows real-time
 - 🌓 Dark/light theme mode
 - 🔐 User authentication system
 
-## 🛠️ Made With
+## 🛠️ Created With
 - [Java](https://www.java.com/) - Programming Language
 - [JavaFX](https://openjfx.io/) - GUI Framework
 - [Scene Builder](https://gluonhq.com/products/scene-builder/) - Visual Layout Tool
@@ -139,8 +139,9 @@ java -jar InventorySystem.jar
 
 ## 👤 Created By
 **PT. Garasi Creasindo**
-- Website: [www.garasicreasindo.com](https://www.garasicreasindo.com)
-- Email: contact@garasicreasindo.com
+**Supriyandi La Awe (Yand)**
+- GitHub: [@yand06](https://github.com/yand06)
+- Email: supriyandilaawe@gmail.com
 
 ## 📝 License
 This project uses [MIT](LICENSE) license
