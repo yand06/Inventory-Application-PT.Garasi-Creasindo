@@ -55,11 +55,13 @@ java -jar InventorySystem.jar
 
 ### Form Input
 
-**1. Form Input Bahan Baku Digital - Masuk** 
+**1. Form Input Bahan Baku Digital** 
 
 ![Form BBD Masuk](https://github.com/user-attachments/assets/5b79af08-1170-4698-92eb-d4a363695990)
 
 ![Form BBD Keluar](https://github.com/user-attachments/assets/8810bed0-0322-401f-9d04-64bb8b30fb90)
+
+**2. Form Input Bahan Baku Produksi** 
 
 ![Form BBP Masuk](https://github.com/user-attachments/assets/5f0386a4-e1cf-4f22-8804-06b92f3a4b3f)
 
@@ -68,7 +70,39 @@ java -jar InventorySystem.jar
 *Raw material stock input form*
 
 ### Laporan
-![Laporan](screenshots/laporan.png)
+
+**1. Laporan Bahan Baku Digital** 
+
+![Laporan BBD Masuk dan keluar](https://github.com/user-attachments/assets/0aaf36e0-0793-4283-addc-cd7685d1d0cb)
+
+**- Masuk & Keluar** 
+
+![View Report BBD](https://github.com/user-attachments/assets/1549fc89-a384-495c-a14c-e93423bc005a)
+
+**- Masuk** 
+
+![View Report BBD Masuk](https://github.com/user-attachments/assets/d30bbaa0-f30b-474f-b0bf-dfd5ec81b3e6)
+
+**- Keluar** 
+
+
+![View Report BBD Keluar](https://github.com/user-attachments/assets/29ae33d0-f27f-489c-b90b-b883ea62541d)
+
+**2. Laporan Bahan Baku Produksi** 
+
+**- Masuk & Keluar** 
+
+![View Report BBP](https://github.com/user-attachments/assets/57093376-5f3e-4e00-9861-7e3404918ef8)
+
+**- Masuk** 
+
+![View Report BBP Masuk](https://github.com/user-attachments/assets/69889419-423c-4182-9d7d-6876615a56db)
+
+**- Keluar** 
+
+![View Report BBP Keluar](https://github.com/user-attachments/assets/979a11e6-b6b7-4eca-af45-530de87e47ae)
+
+
 *Raw material stock report view*
 
 ## Detailed Features
