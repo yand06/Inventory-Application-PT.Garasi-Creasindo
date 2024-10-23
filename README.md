@@ -1,70 +1,90 @@
-# Java Dashboard Light and Dark mode
-This dashboard build by using java swing with flatlaf look and feel
+# 📱 Inventory Application - Sistem manajemen bahan baku digital dan produksi PT. Garasi Creasindo
 
-### Library use
-- flatlaf-3.2.jar
-- flatlaf-extras-3.2.jar
-- jsvg-1.2.0.jar
-- flatlaf-fonts-roboto-2.137.jar
-- swing-toast-notifications-1.0.1.jar
+![Project Status](https://img.shields.io/badge/status-active-success.svg)
 
-### Sample code to show form
-``` java
-//  Application class from package raven.application
-//  Parameter as java.awt.Component
+## 📖 Tentang Project
+Aplikasi ini adalah sistem manajemen inventory yang memungkinkan tracking bahan baku digital dan produksi secara real-time. Project ini dibuat untuk memudahkan PT. Garasi Creasindo dalam mengelola stok bahan baku digital dan produksi mereka secara efisien. Target pengguna dari aplikasi ini adalah staff inventory, production manager, dan admin PT. Garasi Creasindo.
 
-Application.showForm(new PanelForm());
+## ⭐ Fitur Utama
+- ✨ Dashboard dengan overview total stok bahan baku digital dan produksi
+- 🚀 Manajemen stok masuk dan keluar untuk bahan baku digital
+- 💡 Manajemen stok masuk dan keluar untuk bahan baku produksi
+- 📊 Laporan detail stok dengan filter mutasi
+- 🖨️ Fitur cetak laporan
+- 🌓 Mode tema gelap/terang
+- 🔐 Sistem autentikasi pengguna
 
-//  Set menu selection by index and subIndex
+## 🛠️ Dibuat Dengan
+- [React.js](https://reactjs.org/) - Frontend Framework
+- [Node.js](https://nodejs.org/) - Backend
+- [MySQL](https://www.mysql.com/) - Database
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
 
-Application.setSelectedMenu(0, 0);
-```
-### Menu Items
-``` java
-//  Modify this code in raven.menu.Menu.java
+## 🏁 Cara Menggunakan
 
-private final String menuItems[][] = {
-    {"~MAIN~"}, //  Menu title
-    {"Dashboard"},
-    {"Email", "Inbox", "Read", "Compost"},
-};
-```
-### Menu Event
-``` java
-menu.addMenuEvent(new MenuEvent() {
-    @Override
-    public void menuSelected(int index, int subIndex, MenuAction action) {
-        if (index == 1) {
-            if (subIndex == 1) {
-                Application.showForm(new FormInbox());
-            } else if (subIndex == 2) {
-                Application.showForm(new FormRead());
-            }
-        } else {
-            action.cancel();
-        }
-    }
-});
+```bash
+# Clone repository ini
+git clone https://github.com/garasi-creasindo/inventory-system
+
+# Masuk ke direktori project
+cd inventory-system
+
+# Install dependencies
+npm install
+
+# Jalankan aplikasi
+npm start
 ```
 
-### More custom you can apply flatlaf style properties
+## 📷 Screenshot
 
-- [Flatlaf github](https://github.com/JFormDesigner/FlatLaf)
-- [Flatlaf doc](https://www.formdev.com/flatlaf/customizing/)
-### Screenshot
-<img src="https://github.com/DJ-Raven/flatlaf-dashboard/assets/58245926/23ab0477-c11e-498d-92f9-37f6bfa944f6" alt="sample 1" width="350"/>
-<img src="https://github.com/DJ-Raven/flatlaf-dashboard/assets/58245926/44d1972b-b29b-4a11-8fdd-be7f27782e5b" alt="sample 1" width="350"/>
-</br>
-<img src="https://github.com/DJ-Raven/flatlaf-dashboard/assets/58245926/71c03d69-4508-43ea-86e6-2cba0c8e1dc8" alt="sample 1" width="350"/>
-<img src="https://github.com/DJ-Raven/flatlaf-dashboard/assets/58245926/fe793459-33b8-47e7-be06-385c3e4dfa37" alt="sample 1" width="350"/>
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+*Tampilan Dashboard dengan overview stok*
 
-### Update Note
-- [27-05-2023] Add menu item title use `~` sign around your title name : `{"~YOUR TITLE NAME~"}`
-- [28-05-2023] Update auto scale component and change `Application.mainForm.showForm()` to `Application.showForm()`
-- [29-05-2023] Update popup submenu item removed border and add drop shadow border
-- [31-05-2023] Update add login form
-- [31-05-2023] Update selection menu background and add method selected menu by index and subIndex
-- [17-06-2023] Update add [Toast Notifications](https://github.com/DJ-Raven/swing-toast-notifications.git)
-- [27-06-2023] Update add menu font properties for menu item and menu label `Menu.item.font` and `Menu.label.font`
-- [27-06-2023] Update menu support right to left by enable this [code](https://github.com/DJ-Raven/flatlaf-dashboard/blob/70d08d66fa48f72e55ae873cbc2968e4ac151b57/src/raven/application/Application.java#L87C13-L87C13)
-- [03-10-2023] Update add properties `AccentControl.show` to show and hide accent color toolbar
+### Form Input
+![Form Input](screenshots/form-input.png)
+*Form input stok bahan baku*
+
+### Laporan
+![Laporan](screenshots/laporan.png)
+*Tampilan laporan stok bahan baku*
+
+## Fitur Detail
+
+### Dashboard
+- Total Bahan Baku Digital: Menampilkan jumlah total item digital
+- Total Bahan Baku Produksi: Menampilkan jumlah total item produksi
+- Total Bahan Baku Masuk: Tracking item yang masuk
+- Total Bahan Baku Keluar: Tracking item yang keluar
+
+### Manajemen Stok
+- Input stok masuk dengan detail:
+  - Nomor
+  - Tanggal
+  - Jenis Kertas
+  - Ukuran
+  - Mutasi (Masuk/Keluar)
+  - Jumlah
+- Filter view berdasarkan:
+  - Semua Mutasi
+  - Mutasi Masuk
+  - Mutasi Keluar
+
+### Laporan
+- Laporan detail dengan informasi:
+  - Nomor
+  - Tanggal
+  - Jenis Kertas
+  - Ukuran
+  - Status Mutasi
+  - Jumlah
+- Fitur cetak laporan
+
+## 👤 Dibuat Oleh
+**PT. Garasi Creasindo**
+- Website: [www.garasicreasindo.com](https://www.garasicreasindo.com)
+- Email: contact@garasicreasindo.com
+
+## 📝 Lisensi
+Project ini menggunakan lisensi [MIT](LICENSE)
