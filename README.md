@@ -137,7 +137,7 @@ java -jar InventorySystem.jar
 - Export reports to PDF using JasperReports
 - Direct print to printer feature
 
-## 👤 Made By
+## 👤 Created By
 **PT. Garasi Creasindo**
 - Website: [www.garasicreasindo.com](https://www.garasicreasindo.com)
 - Email: contact@garasicreasindo.com
