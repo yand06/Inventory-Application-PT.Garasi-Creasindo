@@ -138,7 +138,6 @@ java -jar InventorySystem.jar
 - Direct print to printer feature
 
 ## 👤 Created By
-**PT. Garasi Creasindo**
 **Supriyandi La Awe (Yand)**
 - GitHub: [@yand06](https://github.com/yand06)
 - Email: supriyandilaawe@gmail.com
