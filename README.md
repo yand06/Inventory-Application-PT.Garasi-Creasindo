@@ -16,8 +16,7 @@ This desktop application is an inventory management system that allows real-time
 
 ## 🛠️ Created With
 - [Java](https://www.java.com/) - Programming Language
-- [JavaFX](https://openjfx.io/) - GUI Framework
-- [Scene Builder](https://gluonhq.com/products/scene-builder/) - Visual Layout Tool
+- [Javax Swing](https://openjfx.io/) - GUI 
 - [MySQL](https://www.mysql.com/) - Database
 - [JasperReports](https://community.jaspersoft.com/) - Reporting Library
 
@@ -136,11 +135,3 @@ java -jar InventorySystem.jar
 - Quantity
 - Export reports to PDF using JasperReports
 - Direct print to printer feature
-
-## 👤 Created By
-**Supriyandi La Awe (Yand)**
-- GitHub: [@yand06](https://github.com/yand06)
-- Email: supriyandilaawe@gmail.com
-
-## 📝 License
-This project uses [MIT](LICENSE) license
