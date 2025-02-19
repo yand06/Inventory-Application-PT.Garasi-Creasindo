@@ -100,38 +100,3 @@ java -jar InventorySystem.jar
 **- Keluar** 
 
 ![View Report BBP Keluar](https://github.com/user-attachments/assets/979a11e6-b6b7-4eca-af45-530de87e47ae)
-
-
-*Raw material stock report view*
-
-## Detailed Features
-
-### Dashboard
-- Digital Raw Material Total: Displays the total number of digital items
-- Total Production Raw Materials: Displays the total number of production items
-- Total Incoming Raw Materials: Tracking incoming items
-- Total Outgoing Raw Materials: Tracking outgoing items
-
-### Stock Management
-- Incoming stock input with details:
-- Number
-- Date
-- Paper Type
-- Size
-- Mutation (In/Out)
-- Amount
-- Filter view by:
-- All Mutations
-- Incoming Mutations
-- Outgoing Mutations
-
-### Report
-- Detailed report with information:
-- Number
-- Date
-- Paper Type
-- Size
-- Mutation Status
-- Quantity
-- Export reports to PDF using JasperReports
-- Direct print to printer feature
